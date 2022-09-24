@@ -45,7 +45,9 @@ function devolverString(str) {
     {
       return true;
     }
-    else return false;
+    else
+    { return false;
+    }
 
   }
   
@@ -164,7 +166,9 @@ return false;
     {
       return 'Es negativo';
     }
+    else {
     return false;
+    }
   }
   
   function agregarSimboloExclamacion(str) {
